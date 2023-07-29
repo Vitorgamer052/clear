@@ -1,0 +1,14 @@
+$onlyIf[$guildID!=;desculpa, esse comando é só para servidores!]
+
+$onlyIf[$checkContains[$noMentionMessage;a;b;c;d;é;f;g;h;i;j;k;l;m;n;o;p;q;r;s;t;u;v;w;x;y;z;A;B;C;D;E;F;G;H;I;J;K;L;M;N;O;P;Q;R;S;T;U;V;W;X;Y;Z]!=true;Sem letras!]
+
+$nomention
+$onlyPerms[managemessages;você não tem permissão para executar este comando]
+
+$onlyBotPerms[managemessages;eu não tenho permissão para executar esse comando!]
+
+$deletecommand
+$clear
+$deleteIn[5s]
+$argsCheck[>1;por favor, digite o número de mensagens para limpar]
+__**deletada $message[1] mensagens.**__
